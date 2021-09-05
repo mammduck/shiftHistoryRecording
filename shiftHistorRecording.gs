@@ -58,7 +58,7 @@ function createPassAvailabilityList(sheet,numMaxColumn, numMaxMember){
 
     
     for(var rowIndex=0; rowIndex<numMaxRow; rowIndex++){
-      
+      loopContinueBoolean = false;
       if(typeof(tmpPassList[rowIndex][columnIndex])== "object"){
         
         for(var k=0; k<numMaxMember; k++){
